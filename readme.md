@@ -5,3 +5,4 @@
 This package support
 1. Language string/code seperate form html/php.
 2. If language string/key not found in language file it return key that you supply/provide.
+3. Require  String class https://github.com/Lablnet/PHP-String-class

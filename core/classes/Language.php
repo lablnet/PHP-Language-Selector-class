@@ -5,6 +5,8 @@
 	 * @author   Malik Umer Farooq <lablnet01@gmail.com>
 	 * @author-profile https://www.facebook.com/malikumerfarooq01/
 	 * @license MIT 
+	 *
+	 * @link https://github.com/Lablnet/PHP-Language-Selector-class
 	 */
 class Language
 {

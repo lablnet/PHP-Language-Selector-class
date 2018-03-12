@@ -6,7 +6,7 @@
 	 *
 	 * @return string
 	 */
-function echo_lang($key){
+function printl($key){
 
 		$lang = new Language;
 

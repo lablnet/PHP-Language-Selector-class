@@ -11,7 +11,7 @@ if(isset($_POST['lang'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><?= echo_lang('home'); ?></title>
+  <title><?= printl('home'); ?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -23,14 +23,14 @@ if(isset($_POST['lang'])){
 <div class="container">
   <form action='' method="post" >
     <div class="form-group">
-      <label for="language"><?= echo_lang('select'); ?>:</label>
+      <label for="language"><?= printl('select'); ?>:</label>
       <select class="form-control" id="language" name='language' >
-        <option value='en'><?= echo_lang('en'); ?></option>
-        <option value='ur'><?= echo_lang('ur'); ?></option>
+        <option value='en'><?= printl('en'); ?></option>
+        <option value='ur'><?= printl('ur'); ?></option>
       </select>
     </div>
     <div class="form-group" >
-    	<input type="submit" name="lang" class='btn btn-primary' value='<?= echo_lang('submit'); ?>' />
+    	<input type="submit" name="lang" class='btn btn-primary' value='<?= printl('submit'); ?>' />
     </div>	
   </form>
 </div>
