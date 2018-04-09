@@ -1,6 +1,6 @@
 <?php
  $GLOBALS['lang'] = [
-	'hello' => 'Home',
+	'home' => 'Home',
 	'en' => 'English',
 	'ur' => 'Urdu',
 	'submit' => 'Submit',
